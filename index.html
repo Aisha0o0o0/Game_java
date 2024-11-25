@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.img1{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top: 750px;
+			right: 360px;
+		}
+
+		.img2{
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 480px;
+			left: 130px;
+			display: ;
+		}
+
+		.img3{
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 660px;
+			left: 850px;
+		}
+
+		.img4{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top: 610px;
+			left: 600px;
+		}	
+
+		.img5{
+			width: 80px;
+			height: 80px;
+			position: absolute;
+			top: 330px;
+			left: 825px;
+		}
+
+		.img6{
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			top: 1060px;
+			left: 170px;
+		}
+
+		.card{
+			width: 200px;
+			height: 330px;
+			background: #ffedf1;
+			position: absolute;
+			border-radius: 20px;
+		}
+
+		.pred1{
+			color: black;
+			text-align: center;
+		}
+
+		.pred2{
+			color: black;
+			text-align: center;
+		}
+
+		.pred3{
+			color: black;
+			text-align: center;
+		}
+
+		.pred4{
+			color: black;
+			text-align: center;
+		}
+
+		.pred5{
+			color: black;
+			text-align: center;
+		}
+
+		.pred5{
+			color: black;
+			text-align: center;
+		}
+
+		.pred6{
+			color: black;
+			text-align: center;
+		}			
+						
+	</style>
+</head>
+<body>
+
+ <div class="card">
+ 	<h3 style="text-align: center;">Привет! Помоги мне найти эти предметы</h3>
+ 	<h4 class="pred1">Кролик</h4>
+ 	<h4 class="pred2">Письмо</h4>
+ 	<h4 class="pred3">Свечи</h4>
+ 	<h4 class="pred4">Мишка</h4>
+ 	<h4 class="pred5">Бантик</h4>
+ 	<h4 class="pred6">Цветочки</h4>
+ </div>
+
+<img src="room5.jpg" style="width:100%">
+<img src="bunny.png" class="img1">
+<img src="letter.png" class="img2">
+<img src="candles.png" class="img3">
+<img src="bear.png" class="img4">
+<img src="baw.png" class="img5">
+<img src="flowers.png" class="img6">
+
+
+
+<script type="text/javascript">
+		document.querySelector(".img1").onclick=function(){
+			alert("Ура! Вы нашли кролика")
+			document.querySelector(".img1").style.display="none"
+			document.querySelector(".pred1").style.textDecoration = "line-through"
+		}
+
+		document.querySelector(".img2").onclick=function(){
+			alert("Ура! Вы нашли письмо")
+			document.querySelector(".img2").style.display="none"
+			document.querySelector(".pred2").style.textDecoration = "line-through"
+		}
+
+		document.querySelector(".img3").onclick=function(){
+			alert("Ура! Вы нашли свечи")
+			document.querySelector(".img3").style.display="none"
+			document.querySelector(".pred3").style.textDecoration = "line-through"
+		}
+
+		document.querySelector(".img4").onclick=function(){
+			alert("Ура! Вы нашли мишку")
+			document.querySelector(".img4").style.display="none"
+			document.querySelector(".pred4").style.textDecoration = "line-through"
+		}
+
+		document.querySelector(".img5").onclick=function(){
+			alert("Ура! Вы нашли бантик")
+			document.querySelector(".img5").style.display="none"
+			document.querySelector(".pred5").style.textDecoration = "line-through"
+		}
+
+		document.querySelector(".img6").onclick=function(){
+			alert("Ура! Вы нашли цветочки")
+			document.querySelector(".img6").style.display="none"
+			document.querySelector(".pred6").style.textDecoration = "line-through"
+		}
+</script>
+</body>
+</html>
